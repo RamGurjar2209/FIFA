@@ -1,0 +1,1075 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.res-nav{
+    display: none;
+}
+
+.navbar1{
+    width: 100%;
+    height: 40px;
+    background-color: #161616;
+}
+
+.navbar2{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.fifa-logo{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifa-logo img{
+    width: 100px;
+}
+
+.nav-menu{
+    width: 950px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu a{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 00;
+    color: white;
+}
+
+.nav-menu a:hover{
+    color: rgb(179, 222, 92);
+}
+
+.nav-btn{
+    width: 220px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn button{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px 40px;
+    color: white;
+    border: none;
+    background-color: rgb(3, 3, 183);
+}
+
+.hero-section{
+    width: 100%;
+    height: 472px;
+    background-image: url('./eacom-franchise-hub-f23-hero-med-xl-7x2.png.adapt.crop7x2.1920w.png');
+    background-size:1650px;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    width: 50%;
+    height: 472px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome h1{
+    width: 555px;
+    height: 130px;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.welcome h3{
+    font-size: 25px;
+    font-weight: 400;
+    width: 555px;
+    height: 40px;
+    color: #161616;
+}
+
+.welcome p{
+    font-size: 17px;
+    color: #161616;
+}
+
+.play-btn{
+    width: 555px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+.play-now{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.play-now:hover {
+    padding: 18px 38px;
+    transition: all ease-in-out 0.1s;
+}
+
+.watch{
+    font-size: 18px;
+    padding: 13px 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background:none;
+}
+
+.watch:hover{
+    padding: 16px 33px;
+    transition: all ease-in-out 0.1s;
+}
+
+.get-more{
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(to right,rgb(1, 1, 100),rgb(173, 4, 4));
+    display: flex;
+}
+
+.get-more-heading{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-more-heading h2{
+    font-weight: 500;
+    color: white;
+}
+
+.play-icon{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-btn{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img-btn button{
+    font-size: 17px;
+    font-weight: 500;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 40px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.img-btn button:hover{
+    padding: 18px 43px;
+    transition: all ease-in-out 0.1s;
+}
+
+.img-btn img:hover{
+    width: 150px;
+    transition: all ease-in-out 0.2s;
+}
+
+.ea-sports{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ea-img{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ea-text{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ea-text p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #161616;
+    text-align: center;
+}
+
+.res-para{
+    display: none;
+}
+
+.latest{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest h1{
+    font-size:55px;
+    font-weight: 800;
+}
+
+.mbappe-img{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.fifa-container{
+    width: 88%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;       
+}
+
+.fifa-23{
+    width: 350px;
+    height: 400px;
+    background-image: url('./FIFA_23_Cover\ \(1\).jpg');
+    background-size:350px ;
+    background-repeat: no-repeat;
+}
+
+.fifa-22{
+    width: 350px;
+    height: 400px;
+    background-image: url('./image.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.fifa-21{
+    width: 350px;
+    height: 400px;
+    background-image: url('./fifa-21-cover-mbappe.webp');
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.news{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news h1{
+    font-size:55px;
+    font-weight: 800;
+}
+
+.news-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.women-world{
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px 10px 15px 1px #888888;
+}
+
+.women-world:hover{
+    transform: translateY(-20px);
+    transition: all ease-in-out 0.5s;
+}
+
+.women-world2{
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px 10px 15px 1px #888888;
+}
+
+.women-world2:hover {
+    transform: translateY(-20px);
+    transition: all ease-in-out 0.5s;
+}
+
+.women-img{
+    width: 400px;
+    height: 45%;
+    background-image: url('./f23-wwc-thumbnail.png.adapt.crop16x9.431p.png');
+    background-size: cover;
+}
+
+.women-img-2{
+    width: 400px;
+    height: 45%;
+    background-image: url('./tots-tutorial-thumbnail.png.adapt.crop16x9.431p.png');
+    background-size: cover;
+}
+
+.women-img-3{
+    width: 400px;
+    height: 45%;
+    background-image: url('./f23-media-adidas-pride-feat.jpg.adapt.crop16x9.431p.jpg');
+    background-size: cover;
+}
+
+.women-text{
+    width: 400px;
+    height: 55%;
+}
+
+.women-text h4{
+    width: 350px;
+    font-size: 17px;
+    color: #1E41AF;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.women-text h3{
+    font-size: 25px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.women-text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #161616;
+    width: 350px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.all-news{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-news button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #161616;
+    padding: 15px 40px;
+    border: 2px solid black;
+    background: none;
+}
+
+.all-news button:hover{
+    padding: 18px 43px;
+    transition: all ease-in-out 0.2s;
+}
+
+.sign-up{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-part{
+    width: 45%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.norm-head{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.res-head{
+    display: none;
+}
+
+.sign-up-part p{
+    font-size: 18px;
+    color: #161616;
+}
+
+.sign-up-part p a{
+    text-decoration: none;
+    color: #1E41AF;
+}
+
+.form-part{
+    width: 45%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.email-input{
+    width: 550px;
+    height: 60px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding-left: 10px;
+    background: none;
+    border-radius: 5px;
+}
+
+.email-input:hover{
+    width: 555px;
+    height: 65px;
+    transition: all ease-in-out 0.2s;
+}
+
+.two-input{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-input input{
+    width: 260px;
+    height: 60px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding-left: 10px;
+    background: none;
+    border-radius: 5px;
+}
+
+.two-input input:hover{
+    width: 265px;
+    height: 65px;
+    transition: all ease-in-out 0.2s;
+}
+
+.two-input select{
+    width: 260px;
+    height: 60px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding-left: 10px;
+    background: none;
+    border-radius: 5px;
+}
+
+.two-input select:hover {
+    width: 265px;
+    height: 65px;
+    transition: all ease-in-out 0.2s;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.check-span span{
+    font-size: 15px;
+}
+
+.sign-btn button{
+    font-size: 18px;
+    padding: 15px 40px;
+    font-weight: 500;
+    color: white;
+    background-color:#1E41AF;
+    border: none;
+    border-radius:5px ;
+}
+
+.sign-btn button:hover{
+    padding: 18px 43px;
+    transition: all ease-in-out 0.2s;
+}
+
+.footer1{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.follow-fifa{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.follow-fifa{
+    color: white;
+    font-size: 15px;
+}
+
+.res-follow{
+    display: none;
+}
+
+.about-fifa{
+    width: 90%;
+    height: 100px;
+    border-bottom:1px solid #A3A3A3 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-menu{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-menu a{
+    color: #A3A3A3;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-menu a:hover{
+    color: #1E41AF;
+}
+
+.footer-icon{
+    width: 15%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius:5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img{
+    width: 37px;
+}
+
+.icon img:hover{
+    width: 39px;
+}
+
+.img-fifa{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-fifa img{
+    width: 80px;
+}
+
+.footer2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.browser{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.browser img{
+    width: 50px;
+}
+
+.browser a{
+    text-decoration: none;
+    color: black;
+}
+
+.browser select{
+    font-size: 20px;
+    padding: 20px 20px;
+    background: none;
+}
+
+.legal{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.legal-privacy{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.legal-privacy a{
+    text-decoration: none;
+    color: #161616;
+}
+
+.copy{
+    width: 1220px;
+}
+
+
+
+
+            /* Responsive */
+
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .navbar1{
+        width: 100%;
+    }
+
+    .navbar2{
+        display: none;
+    }
+
+    .res-nav{
+        display: block;
+        width: 100%;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .res-nav div{
+        width: 98%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .res-menu{
+        width: 30px;
+        margin-right: 15px;
+    }
+
+    .hero-section{
+        width: 100%;
+        height: 500px;
+        background:none;
+        background-image: url('./eacom-franchise-hub-f23-hero-med-xl-7x2.png.adapt.crop7x2.1920w\ edit.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+  }
+
+    .welcome{
+        width: 50%;
+        height: 475px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .welcome h1{
+        width: 300px;
+        font-size: 45px;
+        height: 210px;
+        line-height: 50px;
+    }
+
+    .welcome h3{
+        width: 300px;
+        font-size: 25px;
+    }
+
+    .welcome p{
+        width: 300px;
+        font-size:16px;
+    }
+
+    .play-btn{
+        width: 300px;
+        height: 135px;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .play-now{
+        font-size:15px ;
+        padding: 15px 40px;
+    }
+
+    .watch{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 40px;
+    }
+
+    .get-more{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .get-more-heading h2{
+        font-size: 25px;
+    }
+
+    .play-icon{
+        width: 400px;
+        height: 60px;
+        margin-bottom: 20px;
+        margin-right: 80px;
+    }
+
+    .img-btn{
+        width: 400px;
+        height: 60px;
+    }
+
+    .ea-sports{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ea-img{
+        width: 100%;
+        height: 80px;
+        margin-top:100px;
+    }
+
+    .ea-text{
+        width: 80%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .norm-para{
+        display: none;
+    }
+
+    .res-para{
+        display:block;
+    }
+
+    .latest{
+        width: 100%;
+    }
+
+    .latest h1{
+        font-size: 40px;
+    }
+    
+    .mbappe-img{
+        width: 100%;
+    }
+
+    .fifa-container{
+        width: 100%;
+    }
+
+    .fifa-21{
+        display: none;
+    }
+
+    .fifa-23{
+        width: 340px;
+    }
+
+    .fifa-22{
+        width: 340px;
+    }
+
+    .news{
+        width: 100%;
+    }
+
+    .news h1{
+        font-size: 40px;
+    }
+
+    .news-container{
+        width: 100%;
+    }
+
+    .women-world2{
+        display: none;
+    }
+
+    .women-world{
+        width: 350px;
+    }
+
+    .women-img{
+        width: 350px;
+    }
+
+    .women-img-2{    
+        width: 350px;
+        background-position: center;
+    }
+
+    .women-text h3{
+        font-size: 22px;
+    }
+
+    .women-text p{
+        font-size: 17px;
+    }
+
+    .all-news{
+        width: 100%;
+    }
+
+    .all-news button{
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+
+    .sign-up{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sign-up-part{
+        width: 90%;
+        height: 230px;
+    }
+
+    .norm-head{
+        display: none;
+    }
+
+    .res-head{
+        display: block;
+        font-size: 45px;    
+    }
+
+    .form-part{
+        width: 90%;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .form-part input{
+        width: 100%;
+    }
+
+    .two-input{
+        width: 100%;
+    }
+
+    .two-input input{
+        width: 48%;
+    }
+
+    .two-input select{
+        width: 48%;
+    }
+
+    .check-span{
+        width: 100%;
+        height: 100px;
+    }
+
+    .check-span span{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .check-span input{
+        position: relative;
+        right: 330px;
+        top: 25px;
+    }
+
+    .footer1{
+        width: 100%;
+    }
+
+    .follow-none{
+        display: none;
+    }
+
+    .about-fifa{
+        display: flex;
+        flex-direction: column;
+        align-items: start; 
+        height: 150px;
+    }
+
+    .footer-menu{
+        width: 550px;
+    }
+
+    .footer-menu a{
+        font-size: 15px;
+    }
+
+    .footer-icon{
+        width: 180px;
+    }
+
+    .res-follow{
+        display: block;
+        font-size:18px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .img-fifa{
+        width: 90%;
+    }
+
+    .rp-img{
+        height:100px;
+        margin-top: 25px;
+    }
+    
+    .footer2{
+        width: 100%;
+    }
+
+    .browser{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .browser img{
+        width: 40px;
+    }
+
+    .browser a{
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .browser select{
+        padding: 0px 0px;
+    }
+
+    .legal{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .legal-privacy{
+        width: 90%;
+        margin-left :40px;
+    }
+
+    .legal-privacy a{
+        font-size: 13px;
+    }
+
+    .legal-img{
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .copy{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .copy p{
+        margin-left: 40px;
+        font-size: 15px;
+    }
+}
